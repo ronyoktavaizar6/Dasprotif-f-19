@@ -1,0 +1,92 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package tugasscanner;
+
+import java.util.Scanner;
+public class TugasScanner {
+
+   
+    public static void main(String[] args) {
+          //OBJEK VARIABEL\\
+        String nama;
+        String alamat;
+        String TTL;
+        String saran;
+        String email;
+        String password;
+        int a = 7 ; int b=12; int c=10, total;
+        total= a+b-12;
+        boolean f=true;
+        boolean g=true;
+        boolean hasil = f||g ;
+        String selamat;
+        
+         //MEMBUAT OBJEK CLASS SCANNER\\
+        Scanner keyboard = new Scanner (System.in);
+        System.out.println("JANGAN NGUTANG!!");
+        System.out.println("=============================");
+        System.out.println("##====>>Login pendaftaran Keanggotan Nayss6_cafe<<====##");
+        //SIMPAN OUTPUT\\
+        System.out.print("Nama Lengkap :");
+        //SIMPAN INPUTAN\\
+        nama = keyboard.nextLine();
+       
+        //TAMPILKAN OUTPUT\\
+        System.out.print("Alamat anda saat ini :");
+        //SIMPAN INPUTAN\\
+        alamat = keyboard.nextLine();
+        
+        //TAMPILKAN OUTPUT\\
+        System.out.print("tempat lahir anda :");
+        //SIMPAN INPUT\\
+        TTL = keyboard.nextLine();
+        
+        //TAMPILKAN OUTPUT\\
+        System.out.print("saran anda mengenai cafe ini :");
+        //TAMPILKAN INPUT\\
+        saran = keyboard.nextLine();
+        
+        //TAMPILKAN OUTPUT\\
+        System.out.print("email keanggotaan:");
+        //TAMPILKAN INPUT//
+        email = keyboard.nextLine();
+        
+        //TAMPILKAN OUTPUT\\
+        System.out.print("password : ");
+        //TAMPILKAN OUTPUT\\
+        password = keyboard.nextLine();
+        
+        //TAMPILKAN OUTPUT
+        System.out.print("tentukan hasil dari 7+12-10 : ");
+        //TAMPILKAN INPUT
+        total = keyboard.nextInt();   
+       
+        //TAMPILKAN OUTPUT\\
+        System.out.print("true atau false kalau hujan itu air? : ");
+        //TAMPILKAN INPUT\\
+        hasil = keyboard.nextBoolean();
+        System.out.print("selamat bergabung eaa gayn >,<");
+        selamat = keyboard.next();
+   
+        
+        
+        
+        
+        //>>MENAMPILKAN SEMUA INPUTAN USER<<\\
+        System.out.println(".......><......");
+        System.out.println("Nama Anggota =  " + nama);
+        System.out.println("alamat anda saat ini =  " + alamat);
+        System.out.println("tempat lahir anda = " + TTL );
+        System.out.println("saran anda mengenai cafe ini : " + saran);
+        System.out.println("email keanggotaan = " +email);
+        System.out.println("password = " +  password);
+        System.out.println("tentukan hasil dari = "+total);
+        System.out.println("true atau false kalau hujan itu air? = "+hasil);
+        System.out.println("selamat bergabung eaa gayn  >,<= "+selamat);
+                
+    }   
+    
+}
