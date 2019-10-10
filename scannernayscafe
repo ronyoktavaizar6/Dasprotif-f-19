@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package tugasscanner;
 
 import java.util.Scanner;
@@ -29,44 +25,44 @@ public class TugasScanner {
         System.out.println("JANGAN NGUTANG!!");
         System.out.println("=============================");
         System.out.println("##====>>Login pendaftaran Keanggotan Nayss6_cafe<<====##");
-        //SIMPAN OUTPUT\\
-        System.out.print("Nama Lengkap :");
+        //TAMPILKAN OUTPUT\\
+        System.out.print("Nama Lengkap anda? :");
         //SIMPAN INPUTAN\\
         nama = keyboard.nextLine();
        
         //TAMPILKAN OUTPUT\\
-        System.out.print("Alamat anda saat ini :");
+        System.out.print("Alamat anda saat ini? :");
         //SIMPAN INPUTAN\\
         alamat = keyboard.nextLine();
         
         //TAMPILKAN OUTPUT\\
-        System.out.print("tempat lahir anda :");
+        System.out.print("tempat lahir anda? :");
         //SIMPAN INPUT\\
         TTL = keyboard.nextLine();
         
         //TAMPILKAN OUTPUT\\
         System.out.print("saran anda mengenai cafe ini :");
-        //TAMPILKAN INPUT\\
+        //SIMPAN INPUT\\
         saran = keyboard.nextLine();
         
         //TAMPILKAN OUTPUT\\
         System.out.print("email keanggotaan:");
-        //TAMPILKAN INPUT//
+        //SIMPAN INPUT//
         email = keyboard.nextLine();
         
         //TAMPILKAN OUTPUT\\
         System.out.print("password : ");
-        //TAMPILKAN OUTPUT\\
+        //SIMPAN INPUT\\
         password = keyboard.nextLine();
         
-        //TAMPILKAN OUTPUT
+        //TAMPILKAN OUTPUT\\
         System.out.print("tentukan hasil dari 7+12-10 : ");
-        //TAMPILKAN INPUT
+        //SIMPAN INPUT\\
         total = keyboard.nextInt();   
        
         //TAMPILKAN OUTPUT\\
         System.out.print("true atau false kalau hujan itu air? : ");
-        //TAMPILKAN INPUT\\
+        //SIMPAN INPUT\\
         hasil = keyboard.nextBoolean();
         System.out.print("selamat bergabung eaa gayn >,<");
         selamat = keyboard.next();
