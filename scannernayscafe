@@ -21,49 +21,42 @@ public class TugasScanner {
         String selamat;
         
          //MEMBUAT OBJEK CLASS SCANNER\\
-        Scanner keyboard = new Scanner (System.in);
+        Scanner input = new Scanner (System.in);
         System.out.println("JANGAN NGUTANG!!");
         System.out.println("=============================");
         System.out.println("##====>>Login pendaftaran Keanggotan Nayss6_cafe<<====##");
-        //TAMPILKAN OUTPUT\\
+        
+       
         System.out.print("Nama Lengkap anda? :");
-        //SIMPAN INPUTAN\\
-        nama = keyboard.nextLine();
+        nama = input.nextLine();
        
-        //TAMPILKAN OUTPUT\\
         System.out.print("Alamat anda saat ini? :");
-        //SIMPAN INPUTAN\\
-        alamat = keyboard.nextLine();
+        alamat = input.nextLine();
         
-        //TAMPILKAN OUTPUT\\
+   
         System.out.print("tempat lahir anda? :");
-        //SIMPAN INPUT\\
-        TTL = keyboard.nextLine();
+        TTL = input.nextLine();
         
-        //TAMPILKAN OUTPUT\\
+        
         System.out.print("saran anda mengenai cafe ini :");
-        //SIMPAN INPUT\\
-        saran = keyboard.nextLine();
+        saran = input.nextLine();
         
-        //TAMPILKAN OUTPUT\\
+     
         System.out.print("email keanggotaan:");
-        //SIMPAN INPUT//
-        email = keyboard.nextLine();
+        email = input.nextLine();
         
-        //TAMPILKAN OUTPUT\\
+        
         System.out.print("password : ");
-        //SIMPAN INPUT\\
-        password = keyboard.nextLine();
+        password = input.nextLine();
         
-        //TAMPILKAN OUTPUT\\
+        
         System.out.print("tentukan hasil dari 7+12-10 : ");
-        //SIMPAN INPUT\\
-        total = keyboard.nextInt();   
+        total = input.nextInt();   
        
-        //TAMPILKAN OUTPUT\\
+        
         System.out.print("true atau false kalau hujan itu air? : ");
-        //SIMPAN INPUT\\
-        hasil = keyboard.nextBoolean();
+        hasil = input.nextBoolean();
+        
         System.out.print("selamat bergabung eaa gayn >,<");
         selamat = keyboard.next();
    
