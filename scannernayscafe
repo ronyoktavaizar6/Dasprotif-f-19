@@ -21,44 +21,44 @@ public class TugasScanner {
         String selamat;
         
          //MEMBUAT OBJEK CLASS SCANNER\\
-        Scanner input = new Scanner (System.in);
+        Scanner masukkandata = new Scanner (System.in);
         System.out.println("JANGAN NGUTANG!!");
         System.out.println("=============================");
         System.out.println("##====>>Login pendaftaran Keanggotan Nayss6_cafe<<====##");
         
        
         System.out.print("Nama Lengkap anda? :");
-        nama = input.nextLine();
+        nama = masukkandata.nextLine();
        
         System.out.print("Alamat anda saat ini? :");
-        alamat = input.nextLine();
+        alamat = masukkandata.nextLine();
         
    
         System.out.print("tempat lahir anda? :");
-        TTL = input.nextLine();
+        TTL = masukkandata.nextLine();
         
         
         System.out.print("saran anda mengenai cafe ini :");
-        saran = input.nextLine();
+        saran = masukkandata.nextLine();
         
      
         System.out.print("email keanggotaan:");
-        email = input.nextLine();
+        email = masukkandata.nextLine();
         
         
         System.out.print("password : ");
-        password = input.nextLine();
+        password = masukkandata.nextLine();
         
         
         System.out.print("tentukan hasil dari 7+12-10 : ");
-        total = input.nextInt();   
+        total = masukkandata.nextInt();   
        
         
         System.out.print("true atau false kalau hujan itu air? : ");
-        hasil = input.nextBoolean();
+        hasil = masukkandata.nextBoolean();
         
         System.out.print("selamat bergabung eaa gayn >,<");
-        selamat = keyboard.next();
+        selamat = masukkandata.next();
    
         
         
